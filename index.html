@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">CampusEvents</a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p class="hero-tag">WELCOME TO CAMPUS EVENTS</p>
+        <h1>Discover. Connect. Experience.</h1>
+        <p class="hero-text">Explore exciting college events, meet new people and create unforgettable memories.</p>
+        <div class="hero-buttons">
+          <a href="#events" class="btn btn-primary">Explore Events</a>
+          <a href="#register" class="btn btn-outline">Register Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p class="section-description">Campus Events helps students discover and participate in exciting technical, cultural and educational events.</p>
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Discover</h3>
+            <p>Find interesting events happening on campus.</p>
+          </article>
+          <article class="card">
+            <h3>Connect</h3>
+            <p>Meet new people and share new ideas.</p>
+          </article>
+          <article class="card">
+            <h3>Experience</h3>
+            <p>Learn new skills and create great memories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="section">
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+        <p class="section-description">Join our upcoming events and become part of our campus community.</p>
+        <div class="grid cards-3">
+          <article class="event-card">
+            <div class="event-visual tech"></div>
+            <div class="event-body">
+              <span class="event-category">Technology</span>
+              <h3>Tech Fest 2026</h3>
+              <p class="event-date">15 September 2026</p>
+              <p>Join coding competitions, project exhibitions and technology challenges.</p>
+              <a href="#register" class="event-link">Register Now</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-visual cultural"></div>
+            <div class="event-body">
+              <span class="event-category">Cultural</span>
+              <h3>Cultural Night 2026</h3>
+              <p class="event-date">25 September 2026</p>
+              <p>Enjoy an evening of music, dance and cultural performances.</p>
+              <a href="#register" class="event-link">Register Now</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-visual workshop"></div>
+            <div class="event-body">
+              <span class="event-category">Workshop</span>
+              <h3>AI &amp; Innovation Workshop</h3>
+              <p class="event-date">05 October 2026</p>
+              <p>Learn the basics of Artificial Intelligence and explore new technology.</p>
+              <a href="#register" class="event-link">Register Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Register for an Event</h2>
+        <p class="section-description">Fill in your details to register for an upcoming event.</p>
+        <form class="form-card" action="#" method="post">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="event">Select Event</label>
+            <select id="event" name="event">
+              <option>Select Event</option>
+              <option>Tech Fest 2026</option>
+              <option>Cultural Night 2026</option>
+              <option>AI &amp; Innovation Workshop</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Submit Registration</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-description">Have questions? Feel free to contact us.</p>
+        <div class="grid cards-3">
+          <article class="card contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:events@campusevents.com">sachin25153142@akgec.ac.in</a></p>
+          </article>
+          <article class="card contact-card">
+            <h3>Phone</h3>
+            <p>+91 9311459619</p>
+          </article>
+          <article class="card contact-card">
+            <h3>Location</h3>
+            <p>Akgec Ghaziabad</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- <div class="container footer-content">
+      <h3>CampusEvents</h3>
+      <p>Discover events. Connect with people. Create memories.</p>
+      <p></p>
+    </div> -->
+  </footer>
+</body>
+</html>
